@@ -26,6 +26,9 @@
             <label>Email</label>
             <input type="email" name="correo" placeholder="nombre@gmail.com" required><br>
     
+            <label>Fecha</label>
+            <input type="date" name="fecha" required><br>
+    
             <input type="submit" value="Ingresar" class="form-s">
     
             <a href="index.php">
