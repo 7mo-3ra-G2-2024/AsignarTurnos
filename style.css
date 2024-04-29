@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+/*HEADER*/
+.nav{
+	display: flex;
+	align-items: center;
+    justify-content: space-around;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+.nav h2{
+	font-weight: 900;
+}
+
+.nav-menu{
+	list-style: none;
+	display: flex;
+	gap: 20px;
+}
+.nav-menu-item a{
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+.nav-menu-item a:hover{
+	transition: all .4s;
+	color: white; 
+}
+
+/*PRICIPAL*/
+section{
+	padding: 10px;
+}
+
+.conteiner{
+	width: 350px;
+	height: 140px;
+	border: 1px solid #CACACA;
+	border-radius: 15px;
+	overflow: hidden;
+	margin: 0;
+	background-color: white;
+	transition: all 0.2s;
+}
+.conteiner:hover{
+	box-shadow: 0px 0px 9px 0px;
+	border:none;
+}
+
+#sv{
+	background-color: cadetblue;
+	margin: 0;
+	display: flex;
+	color: white;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+}
+
+#text{
+	padding: 15px;
+	font-size: 1em;
+}
+#text h2{
+	margin-bottom: 10px;
+}
+.op{
+	display: flex;
+	flex-wrap: wrap;
+}
+.op a{
+	text-decoration: none;
+	color: black;
+    margin: 20px;
+}
+
+/*INGRESO*/
+.form {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #CACACA;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.form label {
+	display: inline-block;
+	width: 100px;
+	margin-right: 10px;
+	text-align: right;
+}
+input[type="text"] {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+input[type="number"] {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+input[type="email"] {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.form-s{
+    padding: 10px 20px;
+    background-color: cadetblue; 
+    color: white;
+    border: none;
+    cursor: pointer;
+	margin-left: 30%;
+	transition: all 0.4s;
+}
+.form-s:hover {
+    background-color: #137475; 
+}
+input[type="button"] {
+    padding: 10px 20px;
+    background-color: cadetblue; 
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="button"]:hover {
+    background-color: #137475; 
+}
+
+/*ESTADISTICAS*/
+.esta-compa{
+    padding: 10px 20px;
+	background-color: cadetblue; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.4s;
+    font-size: 1.3rem;
+}
+.esta-compa:hover {
+	background-color: #137475; 
+}
+
+/*GRAFICO*/
+.prin_g{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
